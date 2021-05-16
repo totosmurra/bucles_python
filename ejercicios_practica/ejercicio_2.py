@@ -22,4 +22,11 @@ colores = ['rojo', 'naranja', 'verde', 'azul']
 # los elementos de la lista
 # for i ...
 
+x = -1
+for i in (colores):
+    x += 1
+    if x == 4:
+        break
+    print (colores [x])
+
 print("terminamos!")
