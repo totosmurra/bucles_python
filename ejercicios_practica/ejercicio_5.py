@@ -23,4 +23,14 @@ inicio = int(input('Ingrese el primero número de la secuencia\n'))
 
 # Imprimir el valor de la sumatoria
 
+fin = int(input('Ingrese el ultimo número de la secuencia\n'))
+
+fin +=1
+suma = 0
+
+for i in range(inicio, fin):
+    suma += i
+
+print (suma)
+
 print("terminamos!")
