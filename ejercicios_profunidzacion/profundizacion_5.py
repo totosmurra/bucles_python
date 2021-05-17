@@ -139,4 +139,6 @@ while True:
 
     '''
     Tuve problemas con el while de la operacion 2 y ademas no sabia como usar el for y appendque nos dice como usar en la linea 42
+
+    Me lo mencionaste en clase y ahora ya se como se hace, tengo screenshot.
     '''
