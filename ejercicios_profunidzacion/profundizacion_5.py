@@ -78,3 +78,65 @@ hacer un bosquejo del sistema ya que deberá utilizar 3 bucles en total,
 
 print("Mi primer pasito en data analytics")
 # Empezar aquí la resolución del ejercicio
+
+while True:
+    print ("operacion")
+    operacion = int(input())
+
+    if operacion > 3:
+        print ("Ingrese un numero valido")
+        continue
+
+    if operacion == 3:
+        print ("Finalizando Programa")
+        break
+
+    print ("palabra 1")
+    palabra1 = str(input())
+
+
+
+    print ("palabra 2")
+    palabra2 = str(input())
+
+
+
+    print ("palabra 3")
+    palabra3 = str(input())
+
+
+
+
+
+    palabras = [palabra1, palabra2, palabra3]
+
+    palabra_mas_alta_alfabeticamente = None
+    while operacion == 1:
+        palabra_mas_alta_alfabeticamente = max(palabras)
+        print (palabra_mas_alta_alfabeticamente)
+        break    
+    
+
+    while operacion == 2:
+        palabra_mas_larga = max(palabras), key=(len)
+        print (palabra_mas_larga)
+
+    '''
+    while operacion == 2:
+        lenpal1 = int(len(palabra1))
+        lenpal2 = int(len(palabra2))
+        lenpal3 = int(len(palabra3))
+        
+        if lenpal1 > lenpal2 and lenpal1 > lenpal3:
+            print (palabra1)
+        elif lenpal2 > lenpal1 and lenpal2 > lenpal3:
+            print (palabra2)
+        else:
+            print (palabra3)
+        
+        break
+    '''
+
+    '''
+    Tuve problemas con el while de la operacion 2 y ademas no sabia como usar el for y appendque nos dice como usar en la linea 42
+    '''
